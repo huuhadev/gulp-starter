@@ -10,7 +10,6 @@ bower_components/
 node_modules/
 npm-debug.log
 
-### assets dist ###
 assets/
 ## Source map files (local gulp tasks will still produce .map for debug use) ###
 *.map
