@@ -10,16 +10,7 @@ bower_components/
 node_modules/
 npm-debug.log
 
-### Composer ###
-application/composer.lock
-
-### https://github.com/github/gitignore/blob/master/CodeIgniter.gitignore ###
-*/config/development
-*/logs/log-*.php
-*/logs/!index.html
-*/cache/*
-*/cache/!index.html
-*/cache/!.htaccess
-
+### assets dist ###
+assets/
 ## Source map files (local gulp tasks will still produce .map for debug use) ###
 *.map
