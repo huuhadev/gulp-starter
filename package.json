@@ -1,0 +1,26 @@
+{
+  "name": "gulp-start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Huu Ha",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "*",
+    "gulp": "^3.8.11",
+    "gulp-changed": "*",
+    "gulp-clean-css": "*",
+    "gulp-concat": "*",
+    "gulp-imagemin": "*",
+    "gulp-notify": "*",
+    "gulp-sass": "*",
+    "gulp-sequence": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-uglify": "*",
+    "gulp-watch": "*",
+    "require-dir": "*"
+  }
+}
