@@ -6,7 +6,7 @@
     "Huu Ha"
   ],
   "license": "ISC",
-  "homepage": "",
+  "homepage": "https://github.com/huuhabn/gulp-starter",
   "ignore": [
     "**/.*",
     "node_modules",
