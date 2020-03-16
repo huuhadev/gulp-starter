@@ -83,13 +83,8 @@ module.exports = {
 			frontend: [
 				// Main SASS file
 				dir_src + '/sass/frontend.scss',
-
-				// Bootstrap examples (http://getbootstrap.com/getting-started/#examples)
-				// Comment this to remove preset styles
-				dir_src + '/css/bootstrap-examples/sticky-footer-navbar.css',
-
 				// Custom CSS file
-				dir_src + '/css/frontend.css'
+				dir_src + '/css/custom.css'
 			],
 			// Admin Panel
 			admin: [
@@ -109,7 +104,7 @@ module.exports = {
 			admin: 		'app.min.css'
 		},
 		options: {
-			outputStyle: 'compressed'
+			outputStyle: 'expanded' // expanded , compact, nested, compressed
 		}
 	},
 

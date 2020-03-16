@@ -10,7 +10,7 @@ gulp.task('sass:frontend', function() {
 	return gulp.src(config.src.frontend)
 		.pipe(sourcemaps.init())
 		.pipe(sass(config.options).on('error', sass.logError))
-		.pipe(cleanCSS(config_cssmin.options))
+		.pipe(cleanCSS(config_cssmin.options)) //Comment this line to unmin files
 		.pipe(concat(config.dest_file.frontend))
 		.pipe(sourcemaps.write('.'))
 		.pipe(gulp.dest(config.dest.frontend));
